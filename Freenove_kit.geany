@@ -28,8 +28,13 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
-FILE_NAME_0=0;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FFreenove_Kit%2FCode%2FC_Code%2F00.0.0_Hello%2FHello.c;0;4
+current_page=5
+FILE_NAME_0=75;Markdown;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FFreenove_Kit%2FDiary.md;0;4
+FILE_NAME_1=389;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FFreenove_Kit%2FCode%2FC_Code%2F04.1.1_BreathingLED%2FBreathingLED.c;0;4
+FILE_NAME_2=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fpi%2FDesktop%2FFreenove_Kit%2FCode%2FPython_Code%2F04.1.1_BreathingLED%2FBreathingLED.py;0;4
+FILE_NAME_3=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fpi%2FDesktop%2FFreenove_Kit%2FCode%2FPython_Code%2F03.1.1_LightWater%2FLightWater2.py;0;8
+FILE_NAME_4=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fpi%2FDesktop%2FFreenove_Kit%2FCode%2FPython_Code%2F04.1.1_BreathingLED%2FBreathingLED2.py;0;4
+FILE_NAME_5=410;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FFreenove_Kit%2FCode%2FC_Code%2F05.1.1_ColorfulLED%2FColorfulLED.c;0;4
 
 [VTE]
 last_dir=/home/pi
@@ -39,6 +44,6 @@ CFT_00_LB=_Compile
 CFT_00_CM=gcc -Wall -c "%f" -lwiringPi
 CFT_00_WD=
 CFT_01_LB=_Build
-CFT_01_CM=gcc -Wall -o "%e" "%f" -lwiringPi
+CFT_01_CM=gcc -Wall -o "%e" "%f" -lwiringPi -lpthread
 CFT_01_WD=
 filetypes=C;

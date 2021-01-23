@@ -16,3 +16,5 @@ WiringPi discontinuated, I've installed latest version from GH
 Led longer pin = Anode (+) and shorter pin cathode (-)
 
 PWM method of creating an analog voltage by toggling a digital pin on and off.
+
+Chapters 4 and 5 done also adding ports to gpiozero library for both of them
