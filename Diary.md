@@ -1,4 +1,6 @@
 # Project Diary
+## Resources
+Pin diagrams and protocols https://pinout.xyz/
 
 ## 10/01/2021
 
@@ -10,4 +12,7 @@ WiringPi discontinuated, I've installed latest version from GH
 
 
 
+## 23/01/2021
+Led longer pin = Anode (+) and shorter pin cathode (-)
 
+PWM method of creating an analog voltage by toggling a digital pin on and off.
