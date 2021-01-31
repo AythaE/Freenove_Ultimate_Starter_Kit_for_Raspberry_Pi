@@ -48,7 +48,7 @@ def loop():
         p_Green.ChangeDutyCycle(value_Green*100/255)
         p_Blue.ChangeDutyCycle(value_Blue*100/255)
         # print read ADC value
-        print ('ADC Value value_Red: %d ,\tvlue_Green: %d ,\tvalue_Blue: %d'%(value_Red,value_Green,value_Blue))
+        print ('ADC Value value_Red: %d ,\tvalue_Green: %d ,\tvalue_Blue: %d'%(value_Red,value_Green,value_Blue))
         time.sleep(0.01)
 
 def destroy():

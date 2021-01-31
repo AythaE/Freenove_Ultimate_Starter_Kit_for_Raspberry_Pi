@@ -1,6 +1,6 @@
 [editor]
 line_wrapping=false
-line_break_column=72
+line_break_column=80
 auto_continue_multiline=true
 
 [file_prefs]
@@ -28,9 +28,14 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=1
-FILE_NAME_0=594;Markdown;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FFreenove_Kit%2FDiary.md;0;4
+current_page=6
+FILE_NAME_0=653;Markdown;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FFreenove_Kit%2FDiary.md;0;4
 FILE_NAME_1=0;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FFreenove_Kit%2FCode%2FC_Code%2F02.1.1_ButtonLED%2FButtonLED.c;0;4
+FILE_NAME_2=0;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FFreenove_Kit%2FCode%2FC_Code%2F06.1.1_Doorbell%2FDoorbell.c;0;4
+FILE_NAME_3=1080;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FFreenove_Kit%2FCode%2FC_Code%2F06.1.1_Doorbell%2FDoorbell-Led.c;0;4
+FILE_NAME_4=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fpi%2FDesktop%2FFreenove_Kit%2FCode%2FPython_Code%2F06.1.1_Doorbell%2FDoorbell.py;0;4
+FILE_NAME_5=707;Python;0;EUTF-8;0;1;0;%2Fhome%2Fpi%2FDesktop%2FFreenove_Kit%2FCode%2FPython_Code%2F06.1.1_Doorbell%2FDoorbell2.py;0;4
+FILE_NAME_6=0;C++;0;EUTF-8;0;1;0;%2Fhome%2Fpi%2FDesktop%2FFreenove_Kit%2FCode%2FC_Code%2F07.1.1_ADC%2FADC.cpp;0;4
 
 [VTE]
 last_dir=/home/pi
@@ -42,4 +47,10 @@ CFT_00_WD=
 CFT_01_LB=_Build
 CFT_01_CM=gcc -Wall -o "%e.out" "%f" -lwiringPi -lpthread
 CFT_01_WD=
-filetypes=C;
+filetypes=C;C++;
+EX_01_LB=Execute C
+EX_01_CM="./%e.out"
+EX_01_WD=
+C++FT_01_LB=_Build
+C++FT_01_CM=g++ -Wall -o "%e.out" "%f"  -lwiringPi -lADCDevice
+C++FT_01_WD=
